@@ -1,0 +1,62 @@
+
+
+* {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-color: lightcyan;
+}
+
+h1 {
+    color: navy;
+   
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid navy;
+    border-radius: 15%;
+    cursor: pointer;
+    margin: 5px;
+}
+
+option {
+    font-size: 30px;
+}
+
+#responses {
+    align-content: left;
+    background-color: lightblue;
+    margin: 5% 20%;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+#responses div {
+    text-align: left;
+    padding-left: 25%;
+    margin-top: 4px;
+}
+
+#next {
+    display: none;
+}
+
+#lives {
+    float: right;
+}
+
+#scoreboard {
+    float: left;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
